@@ -118,7 +118,9 @@ body{
     }
 }
 /* section-2 */
-
+.footer-container-1{
+    margin-top: 80px;
+}
     
 .main-descripton{
     display: flex;
@@ -130,11 +132,7 @@ body{
     padding: 10px;
     box-shadow: 1px 1px 5px black;
 }
-{
-    width: 572px;
-    height:800px;
-    
-}
+
 .detail{
     font-size: 24px;
     width: 50%;
@@ -191,4 +189,29 @@ body{
         flex-direction: column;
       
     }
+}
+/* footer-container */
+.footer-title{
+    margin-top: 100px;
+    padding: 10px;
+    width: 45%;
+    margin: 0 auto;
+}
+.footer-header-1{
+    font-size: 24px;
+    font-weight: 800px;
+    padding: 10px;
+    text-align:center ;
+}
+.footer-pera-1{
+    font-size: 18px;
+    padding: 14px;
+}
+/* logo-container */
+.logo-container-1{
+    margin-top: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
 }
