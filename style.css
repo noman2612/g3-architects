@@ -88,6 +88,7 @@ body{
 .img-itam{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 25px;
 
 }
 .item-img{
@@ -113,6 +114,45 @@ body{
     }
     .mid-section{
         flex-direction: column;
+        margin: 0 auto;
+    }
+}
+/* section-2 */
+
+    
+.main-descripton{
+    display: flex;
+    margin-top: 80px;
+   margin-left: 150px;
+}
+.detail-author{
+    width: 70%;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+{
+    width: 572px;
+    height:800px;
+    
+}
+.detail{
+    font-size: 24px;
+    width: 50%;
+    padding: 10px;
+}
+.detail-meno{
+    width: 50%;
+    padding: 10px;
+}
+/* mobile view */
+@media only screen and (max-width:600px) {
+    .main-descripton{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .img-author>img{
+        height: 100%;
+        width: 100%;
         margin: 0 auto;
     }
 }
