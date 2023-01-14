@@ -66,8 +66,17 @@ body{
     width: 70vw;
 }
 /* media-mobile */
-@media only screen and (max-width:600px) 
+@media only screen and (max-width:600px) {
     .section-title{
         display: grid;
-        
     }
+
+    .header-img >.banner-main{
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+    
+    
