@@ -156,3 +156,35 @@ body{
         margin: 0 auto;
     }
 }
+/* section-3 */
+.section-3{
+    margin-top: 80px;
+}
+.section-3-header{
+    text-align: justify;
+   position: relative;
+   left: 200px;
+}
+.header-author{
+    font-size: 34px;
+    padding: 10px;
+    font-weight: 700px;
+    width: 50%;
+}
+.pera-auther{
+    font-size: 18px;
+    padding: 10px;
+    width: 50%;
+}
+.skells{display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 10px;
+}
+/* mobile media */
+@media only screen and (max-width:600px) {
+    .skells{
+        flex-direction: column;
+        margin: auto;
+    }
+}
