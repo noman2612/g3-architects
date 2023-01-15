@@ -6,6 +6,7 @@
 /* header */
 body{
     background-color: white;
+    overflow-x: hidden;
 }
 .container{
     background-color: wheat;
